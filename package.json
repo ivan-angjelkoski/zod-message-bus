@@ -1,0 +1,23 @@
+{
+  "name": "zod-message-bus",
+  "version": "1.0.0",
+  "description": "Zod Message Bus",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "keywords": [
+    "zod",
+    "message",
+    "bus",
+    "ivan",
+    "angjelkoski"
+  ],
+  "author": "Ivan Angjelkoski",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "tsup": "^8.2.4",
+    "typescript": "^5.6.2"
+  }
+}
