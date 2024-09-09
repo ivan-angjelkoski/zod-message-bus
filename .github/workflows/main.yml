@@ -19,5 +19,5 @@ jobs:
           cache: "pnpm"
       - name: Install dependencies
         run: |
-          pnpm install --frozen-lockfile --auto-install-peers=true
+          pnpm install --no-frozen-lockfile
           pnpm run ci
